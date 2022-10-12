@@ -11,7 +11,7 @@ A simple Flask API to accept and fetch Pizza orders
 Install this project with Github
 
 ```bash
-  git clone 
+  git clone https://github.com/adithyapaib/Flask
   cd Flask
   pip3 install -r requirements.txt
   sudo apt-get update && apt-get install -y rabbitmq-server
