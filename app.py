@@ -17,6 +17,20 @@ collection = db.orders
 
 
 """ Routes """
+
+@app.route('/', methods=['GET'])
+def index():
+    return jsonify({
+        'routes': {
+            '/': 'Index',
+            '/orders': 'Post an order',
+            '/getorders/<id>': 'Get an order by id',
+            '/getorders': 'Get all orders',
+            '/welcome': 'Welcome message',
+        }
+        })
+
+
 @app.route('/welcome', methods=['GET'])
 def welcome():
     return jsonify({'message': 'Welcome to Pizza House'}), 200, {'ContentType': 'application/json'}
