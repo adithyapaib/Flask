@@ -1,0 +1,13 @@
+backports.statistics==0.1.0
+Cython==0.29.32
+dl==0.1.0
+Flask_Cors==3.0.10
+Flask_PyMongo==2.3.0
+ipaddr==2.2.0
+keyring==18.0.1
+mypy_extensions==0.4.3
+ordereddict==1.1
+pika==1.3.0
+pymongo==4.2.0
+pytest==7.1.3
+Flask==2.2.2
