@@ -81,6 +81,6 @@ The project can be tested using with the follwing command.
 
 
 ## Todo
-- Dockerize container and deploy to Dockerhub
-- Write dockercompose file to combine mongo and flask app deployments
+- Dockerize the application and deploy it to Dockerhub
+- Write dockercompose.yml file to combine mongo and flask app deployment
 
